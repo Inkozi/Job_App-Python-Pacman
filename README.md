@@ -41,10 +41,10 @@ of map could be made out of these config files. I decided to try to replicate th
 
 Testing::
 
-	As far as testing went, I actually tested second and wrote my code first. The testing is not as comprehensive
-	as it should be but systematically tests some of the easier cases in the code. It still needs a file parsing test,
-	collision tests, and level tests. I chose not to implement these tests mainly because I'm out of time and still
-	feel it delivers a representation of my abilities. 
+As far as testing went, I actually tested second and wrote my code first. The testing is not as comprehensive
+as it should be but systematically tests some of the easier cases in the code. It still needs a file parsing test,
+collision tests, and level tests. I chose not to implement these tests mainly because I'm out of time and still
+feel it delivers a representation of my abilities. 
 
 
 If this fails to run, let me know. Hope you enjoy.
