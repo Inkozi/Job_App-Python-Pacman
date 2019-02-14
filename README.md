@@ -4,6 +4,8 @@
 Author :: Charles C. Stevenson
 Date :: 14.02.2019
 
+**IN ORDER TO MOVE**
+use the arrow keys!
 
 A current non-comprehensive demo of my python code
 
@@ -49,6 +51,3 @@ feel it delivers a representation of my abilities.
 
 If this fails to run, let me know. Hope you enjoy.
 
-
-**IN ORDER TO MOVE**
-use the arrow keys!
