@@ -28,7 +28,7 @@ is very similar to one another. They all consist of three different functions
 	2) a collision response
 	3) a render
 
-This was very convienant so when I iterated through objects and routed responses I didn't need
+This was very convenient so when I iterated through objects and routed responses I didn't need
 to care about which object was being called. It was a little time-consuming to setup like this.
 However; it paid off when it came to adding features in that I only needed to worry about the actor itself.
 The core of this is keeping api's similar to one another but also building an iterator to pass custom objects through
