@@ -21,10 +21,10 @@ def main():
 
 
 class Theatre():
-    
+
     def __init__(self,level):
         self.level = level
-        self.fps = 20.0
+        self.fps = 5.0
 
     def update(self):
 
@@ -41,10 +41,10 @@ class Theatre():
         y = self.level.pacman.posY
         obj = self.level.scene[y][x]
         pac = self.level.pacman
-        
+
         #collision handler
         if (pac.collision(obj)):
-            for key, value in self.level.actors.iteritems():
+            for key, value in self.level.actors.items():
                 if (isinstance(obj, key)):
                     if (pac.collide(self.level.actors[key])):
                         #swap
@@ -66,7 +66,7 @@ class Theatre():
                 if (event.key == pygame.K_DOWN):
                     key = "down"
         return key
-    
+
     def clear(self):
         os.system('clear')
 
